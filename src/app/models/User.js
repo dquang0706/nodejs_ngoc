@@ -1,6 +1,6 @@
 const mongoose = require ('mongoose');
 const Schema = mongoose.Schema;
-mongoose.plugin (slug);
+// mongoose.plugin (slug);
 
 const UserSchema = new Schema (
   {
